@@ -25,6 +25,19 @@ body {
 .wrapper_skinny {
   width: 60%;
   margin: 0 auto;
+  .disclaimer {
+    padding: 1rem 0.5rem 0.5rem;
+    margin: 20px 0 5px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.35);
+    color: $white;
+    letter-spacing: 2px;
+    line-height: 1.25;
+    font-size: 18px;
+      p, h3 {
+        margin: 5px 0;
+      }
+  }
 }
 
 .responsive_break {

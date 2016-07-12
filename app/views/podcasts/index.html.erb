@@ -11,12 +11,13 @@
             <%= image_tag podcast.thumbnail.url(:medium) %>
             <div class="podcast_overview">
               <h2><%= podcast.title %></h2>
-              <p class="episode_count">1 Episode</p>
+              <p class="episode_count">View Episodes</p>
             </div>
           </li>
         <% end %>
       <% end %>
     </ul>
 
+    <%= will_paginate @podcasts %>
   </div>
 </div>
