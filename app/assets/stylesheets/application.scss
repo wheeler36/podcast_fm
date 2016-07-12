@@ -113,12 +113,12 @@ body {
   background-position: center center;
   h1 {
     text-align: center;
-    padding: 8.5rem 0;
+    padding: 9.5rem 0 8rem;
     margin: 0;
-    font-size: 3rem;
-    font-weight: 300;
+    font-size: 3.5rem;
+    font-weight: 700;
     letter-spacing: 1px;
-    color: $white;
+    color: rgba(255, 255, 255, 0.95);
   }
 }
 
@@ -210,4 +210,4 @@ textarea {
 
 @import 'normalize';
 @import 'welcome';
-/* @import 'podcasts'; */
+@import 'podcasts';
